@@ -19,22 +19,33 @@ body {
 }
 
 .container {
-    margin: 50px auto;
+    margin: 20px auto 0 auto;
     width: 80%;
     text-align: center;
-    border: 1px solid black;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap);
+    justify-content: center;
+    height: 85vh;
+    overflow-y: auto;
 }
 
 .col {
     width: calc(100% / 7  - (var(--gap) * 6 / 7));
     aspect-ratio: 1 / 1;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2.5vw + 0.1rem);
+    word-break: break-word;
 }
 
 .bg-blue {

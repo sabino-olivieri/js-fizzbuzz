@@ -16,9 +16,9 @@
 
  ## Svolgimento
 
-- [ ] creo variabile content
-- [ ] creo ciclo che va da 1 a 100 incluso, con contatore che si incrementa
-- [ ] se contatore è divisibile per 3 && anche per 5
+- [x] creo variabile content e background
+- [x] creo ciclo che va da 1 a 100 incluso, con contatore che si incrementa
+- [X] se contatore è divisibile per 3 && anche per 5
     - content = FizzBuzz
     - background red
     altrimenti se è divisibile per 3
@@ -30,6 +30,6 @@
     altrimenti
     - content = contatore
     - background blue
-- [ ] creo elemento box
-- [ ] assegno al box il contenuto 
-- [ ] inserisco elemento box in pagina
+- [X] creo elemento box
+- [X] assegno al box il contenuto 
+- [X] inserisco elemento box in pagina
