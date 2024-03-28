@@ -1,6 +1,6 @@
 // creo variabili per il contenuto e la classe sfondo
 let content, background;
-
+let listElem = "";
 // creo variabile per elemento row in html
 const rowElem = document.querySelector(".row");
 
@@ -38,6 +38,10 @@ for (let i = 1; i <= 100; i++) {
 
     }
 
+    // meno dispendioso per la cpu
+    listElem += `<div class="col ${background}">${content}</div>`;
+
+    /*
     // creo elemento col da inserire in html
     const colElem = document.createElement("div");
     // assegno la classe col e la classe per lo sfondo
@@ -47,5 +51,7 @@ for (let i = 1; i <= 100; i++) {
     colElem.innerHTML = content;
     // aggiungo colElem all'interno di row 
     rowElem.append(colElem);
-
+    */
 }
+
+rowElem.innerHTML = listElem;
